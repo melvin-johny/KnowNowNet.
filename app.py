@@ -18,9 +18,9 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 # MySQL configurations
 app.config['MYSQL_HOST'] = '127.0.0.1'
-app.config['MYSQL_USER'] = 'root'  # MySQL username
-app.config['MYSQL_PASSWORD'] = '626858'   # No password
-app.config['MYSQL_DB'] = 'chatbot'  # Name of your database
+app.config['MYSQL_USER'] = ''  # MySQL username
+app.config['MYSQL_PASSWORD'] = ''   # No password
+app.config['MYSQL_DB'] = ''  # Name of your database
 
 mysql = MySQL(app)
 
