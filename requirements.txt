@@ -1,0 +1,6 @@
+Flask
+Flask-MySQLdb
+wikipedia-api
+requests
+beautifulsoup4
+bcrypt
